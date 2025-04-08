@@ -90,9 +90,8 @@ Your actions earn XP, achievements, and leaderboard rankings.
 ├── /profile        # 🧑 User profile & achievements
 ├── /leaderboard    # 🏆 Rankings
 └── /settings       # ⚙️ Preferences
-
-<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 ```
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 ---
 
 ## 🚦 Getting Started
@@ -122,6 +121,9 @@ npm run dev
 ```
 npm run build
 ```
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+
+---
 
 ## 🔄 Typical User Flow
 
@@ -131,6 +133,9 @@ npm run build
 4. Users can create custom challenges or quests.
 5. Compare your progress with your friends.
 6. Advanced users can connect digital wallets for premium features and blockchain verification.
+   
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+---
 
 ## 📞 Contact
 For support or inquiries, please contact us at - <br/></br>
@@ -138,6 +143,8 @@ nextu@gmail.com
 
 <hr style="border-top: 0px solid #9CA3AF; width: 100%;" />
 <p align="center">© 2025 NextYou - Level Up Your Life</p>
+
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
 
 
