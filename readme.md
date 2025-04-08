@@ -77,21 +77,22 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ---
 
-## 📱 App Structure
-### Pages & Routing
 
+## 📱 App Structure
+
+```bash
 ├── /               # 🌐 Landing page
 ├── /login          # 🔐 Login page
 ├── /signup         # 📝 Registration
-├── /dashboard      # 📊 Main user interface
-├── /quests         # 📋 Discover and manage quests
-│   └── /create     # ✍️ Build custom quests
-├── /profile        # 🧑 User stats and achievements
-├── /leaderboard    # 🏆 Rankings & progress comparison
-└── /settings       # ⚙️ Preferences and configurations
+├── /dashboard      # 📊 User’s main hub
+├── /quests         # 📋 Quests overview
+│   └── /create     # ✍️ Custom quest builder
+├── /profile        # 🧑 User profile & achievements
+├── /leaderboard    # 🏆 Rankings
+└── /settings       # ⚙️ Preferences
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
-
+```
 ---
 
 ## 🚦 Getting Started
