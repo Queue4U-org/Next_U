@@ -78,8 +78,8 @@ Your actions earn XP, achievements, and leaderboard rankings.
 ---
 
 ## 📱 App Structure
+### Pages & Routing
 
-```bash
 ├── /               # 🌐 Landing page
 ├── /login          # 🔐 Login page
 ├── /signup         # 📝 Registration
@@ -90,21 +90,9 @@ Your actions earn XP, achievements, and leaderboard rankings.
 ├── /leaderboard    # 🏆 Rankings & progress comparison
 └── /settings       # ⚙️ Preferences and configurations
 
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
-## 📱 App Structure
-### Pages & Routing
-
-```
-┌── /               - Landing page with features and testimonials
-├── /login          - User Login
-├── /signup         - User Signup
-├── /dashboard      - Main user interface with progress overview
-├── /quests         - Quest discovery and management
-│   └── /create     - Custom quest builder
-├── /profile        - User statistics and achievements
-├── /leaderboard    - Competitive rankings and comparisons
-└── /settings       - Account preferences and configurations
-```
+---
 
 ## 🚦 Getting Started
 
