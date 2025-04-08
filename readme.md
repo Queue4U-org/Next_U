@@ -127,14 +127,29 @@ npm run build
 
 ## 🔄 Typical User Flow
 
-1. User visits Next_U and creates an account.
-2. After answering initial questions about goals and interests, they receive personalized quest recommendations.
-3. Completed quests award XP, helping users level up and unlock new features.
-4. Users can create custom challenges or quests.
-5. Compare your progress with your friends.
-6. Advanced users can connect digital wallets for premium features and blockchain verification.
-   
+1. 🧑‍💼 **User signs up and sets goals**  
+   The journey begins by creating an account and sharing personal development preferences.
+
+2. 🧠 **Receives quests based on preferences**  
+   AI analyzes user input to suggest personalized daily challenges across fitness, learning, mindfulness, and more.
+
+3. 🎯 **Completes tasks and earns XP**  
+   Every completed task grants experience points (XP), contributing to the user’s level and profile growth.
+
+4. 🧱 **Builds profile, unlocks badges**  
+   Users level up, earn streaks, and unlock achievements as they maintain consistency.
+
+5. 🔨 **Creates custom challenges**  
+   Design your own goals and track your personal milestones with the custom quest builder.
+
+6. 🧑‍🤝‍🧑 **Compares progress on the leaderboard**  
+   Stay motivated by comparing your journey with friends or the global community via real-time rankings.
+
+7. 🪙 **Optionally uses blockchain rewards**  
+   Advanced users can link digital wallets to verify accomplishments and unlock premium quests through blockchain integration.
+
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+
 ---
 
 ## 📞 Contact
