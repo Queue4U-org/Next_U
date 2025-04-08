@@ -57,6 +57,12 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ## 💻 Tech Stack
 
+## 💻 Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,postgres,firebase,python,tensorflow,sklearn,solidity,ethereum&theme=dark&perline=6" />
+</div>
+
 ### 🧑‍💻 Frontend
 - [![React](https://img.shields.io/badge/-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 - [![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
