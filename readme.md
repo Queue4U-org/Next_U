@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/Logo.png" alt="NextYou Logo" width="700" height="400"/>
+  <img src="./src/assets/Logo.png" alt="NextYou Logo" width="200" height="200"/>
 </p>
 
 <h1 align="center">🚀 Welcome to <span style="color:#6366F1">Next_U</span> - Level Up Your Life</h1>
