@@ -2,9 +2,11 @@
   <img src="./src/assets/Logo.png" alt="NextYou Logo" width="200" height="200"/>
 </p>
 
-<h1 align="center">🚀 Welcome to <span style="color:#6366F1">Next_U</span> - Level Up Your Life</h1>
+<h1 align="center">🚀 Welcome to <span style="color:#6366F1">Next_U</span> - Become the main character in your life's adventure</h1>
 
----
+
+<video src="./src/assets/PPT.mp4" width="720" height="360" controls></video>
+
 
 ## 📚 Table of Contents
 
@@ -16,7 +18,6 @@
 - [🔄 Typical User Flow](#-typical-user-flow)
 - [📞 Contact](#-contact)
 
----
 
 ## 🌟 Vision
 
@@ -34,7 +35,6 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
 
 ## ✨ Key Features
 
@@ -53,11 +53,9 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
 
 ## 💻 Tech Stack
 
-## 💻 Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,postgres,firebase,python,tensorflow,sklearn,solidity,ethereum&theme=dark&perline=6" />
@@ -87,8 +85,6 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
-
 
 ## 📱 App Structure
 
@@ -105,7 +101,6 @@ Your actions earn XP, achievements, and leaderboard rankings.
 ```
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
 
 ## 🚦 Getting Started
 
@@ -136,7 +131,6 @@ npm run build
 ```
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
 
 ## 🔄 Typical User Flow
 
@@ -163,14 +157,13 @@ npm run build
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
----
 
 ## 📞 Contact
 For support or inquiries, please contact us at - <br/></br>
 nextu@gmail.com
 
 <hr style="border-top: 0px solid #9CA3AF; width: 100%;" />
-<p align="center">© 2025 NextYou - Level Up Your Life</p>
+<p align="center">© 2025 NextYou - Become the main character in your life's adventure</p>
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
