@@ -6,6 +6,12 @@
 
 ---
 
+# Project Presentation – PPTN
+
+[**tap here**](https://nextu.my.canva.site/) to view the full project presentation.
+
+---
+
 ## 📚 Table of Contents
 
 - [🌟 Vision](#-vision)
