@@ -18,6 +18,7 @@
 - [✍️ Project Description](#-project-description)
 - [📝 Proposed System](#-proposed-system)
 - [✨ Key Features](#-key-features)
+- [🌐 Interface Preview](#-interface-preview)
 - [💻 Tech Stack](#-tech-stack)
 - [📱 App Structure](#-app-structure)
 - [⛔ Existing System and Drawbacks](#-existing-system-and-drawbacks)
@@ -87,9 +88,9 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-# Features
+## Interface Preview
 
-## Web3 based login Feature
+### Web3 based login Feature
 
 <div style="display: flex; overflow-x: auto; white-space: nowrap; gap: 20px; padding: 10px 0;">
     <div style="flex: 0 0 auto; width: auto; height: 300px;">
@@ -105,7 +106,21 @@ We're developing a web app that connects your daily activities to in-game progre
         <p style="text-align: center; margin-top: 8px;">Successful Login</p>
     </div>
 
-  ## Home Pages
+  ### Landing Page
+   <div style="flex: 0 0 auto; width: auto; height: 200px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP1.png" alt="Home Page" style="height: 50%;"/>
+        <p style="text-align: center; margin-top: 8px;">Landing Page</p>
+   </div>
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP2.png" alt="Begin Journey" style="height: 50%;"/>
+        <p style="text-align: center; margin-top: 8px;">Landing Page Key Features</p>
+   </div>
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP3.png" alt="Level Up" style="height: 50%;"/>
+        <p style="text-align: center; margin-top: 8px;">Landing Page Get Started</p>
+   </div>
+
+  ### Home Pages
    <div style="flex: 0 0 auto; width: auto; height: 300px;">
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home1.png" alt="Home Page" style="height: 100%;"/>
         <p style="text-align: center; margin-top: 8px;">Home Page</p>
@@ -118,10 +133,10 @@ We're developing a web app that connects your daily activities to in-game progre
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home3.png" alt="Level Up" style="height: 100%;"/>
         <p style="text-align: center; margin-top: 8px;">Level Up</p>
    </div>
-
-   ## Quest Page
-   ## Profile Page
-   ## Settings Page
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home4.png" alt="Home Page Quest Info" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Home Page Quest Info</p>
+   </div>
 </div>
 
 ## 💻 Tech Stack
