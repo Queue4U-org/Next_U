@@ -85,7 +85,7 @@ We're developing a web app that connects your daily activities to in-game progre
 ---
 
 
-## ✨ Key Features
+## <a id="key-features"></a>✨ Key Features
 
 ### 🗓️ Core Experience
 - ✅ **Daily Quests & Challenges** – Get personalized tasks in fitness, mindfulness, learning, etc.
@@ -104,7 +104,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-## Interface Preview
+## <a id="interface-preview"></a>Interface Preview
 
 ### Landing Page
 
