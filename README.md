@@ -104,6 +104,18 @@ We're developing a web app that connects your daily activities to in-game progre
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="height: 100%;"/>
         <p style="text-align: center; margin-top: 8px;">Successful Login</p>
     </div>
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home1.png" alt="Home Page" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Home Page</p>
+   </div>
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home2.png" alt="Begin Journey" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Begin Journey</p>
+   </div>
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home3.png" alt="Level Up" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Level Up</p>
+   </div>
 </div>
 
 ## 💻 Tech Stack
