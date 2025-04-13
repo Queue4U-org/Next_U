@@ -70,7 +70,7 @@ Next_U is a gamified personal growth app that turns your real-life self-improvem
 
 ---
 
-## 📝 Proposed System
+## <a id="proposed-system"></a>📝 Proposed System
 We're developing a web app that connects your daily activities to in-game progress through several key components:
 
 - Quest system offering daily personalized challenges across fitness, mindfulness, learning, and social areas
