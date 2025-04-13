@@ -45,7 +45,7 @@
 
 ---
 
-## 🌟 Vision
+## <a id="vision"></a> 🌟 Vision
 
 Next_U revolutionizes personal development by merging real-life achievements with an immersive gaming experience.
 
