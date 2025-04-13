@@ -63,8 +63,6 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ## 💻 Tech Stack
 
-## 💻 Tech Stack
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,postgres,firebase,python,tensorflow,sklearn,solidity,ethereum&theme=dark&perline=6" />
 </div>
