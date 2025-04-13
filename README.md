@@ -189,6 +189,12 @@ We're developing a web app that connects your daily activities to in-game progre
         <p style="margin-top: 10px; font-size: 14px;">Settings Page</p>
     </div>
 </div>
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings2.png" alt="Settings" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Security Guard</p>
+    </div>
+</div>
 
 ---
 
