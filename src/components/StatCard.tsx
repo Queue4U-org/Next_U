@@ -27,6 +27,9 @@ export const StatCard = ({ type, value, onTrainClick }: StatCardProps) => {
     spiritual: 'Inner peace and meditation'
   };
 
+  // Ensure that value is between 0 and 100
+  const safeValue = Math.min(Math.max(value, 0), 100);
+
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
@@ -44,10 +47,10 @@ export const StatCard = ({ type, value, onTrainClick }: StatCardProps) => {
       <div className="relative z-10">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <Icon className="w-6 h-6 text-blue-400" />
+            <Icon className="w-6 h-6 text-blue-400" aria-label={`${type} icon`} />
             <h3 className="capitalize text-lg font-bold">{type}</h3>
           </div>
-          <span className="text-blue-400 font-semibold">{value}%</span>
+          <span className="text-blue-400 font-semibold">{safeValue}%</span>
         </div>
 
         <p className="text-sm text-gray-400 mb-4">{descriptions[type]}</p>
@@ -56,8 +59,8 @@ export const StatCard = ({ type, value, onTrainClick }: StatCardProps) => {
           <motion.div
             className="h-full bg-blue-400 rounded-full"
             initial={{ width: 0 }}
-            animate={{ width: `${value}%` }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
+            animate={{ width: `${safeValue}%` }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
           />
         </div>
 
@@ -66,6 +69,7 @@ export const StatCard = ({ type, value, onTrainClick }: StatCardProps) => {
           className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg flex items-center justify-center gap-2"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
+          aria-label={`Train ${type}`}
         >
           Train {type}
         </motion.button>
