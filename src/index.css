@@ -1,3 +1,313 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Landing Page Styles */
+.landing-page {
+  @apply relative min-h-screen overflow-x-hidden bg-navy-950 text-white;
+}
+
+.background-shapes {
+  @apply fixed inset-0 pointer-events-none overflow-hidden;
+}
+
+.shape {
+  @apply absolute rounded-full opacity-20 blur-3xl;
+}
+
+.shape-1 {
+  @apply bg-blue-500 w-96 h-96 -top-48 -left-48;
+}
+
+.shape-2 {
+  @apply bg-purple-500 w-96 h-96 -bottom-48 -right-48;
+}
+
+.shape-3 {
+  @apply bg-cyan-500 w-96 h-96 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.custom-cursor {
+  @apply fixed w-8 h-8 pointer-events-none rounded-full border-2 border-blue-400 z-50 mix-blend-difference transition-transform duration-200;
+}
+
+.custom-cursor.active {
+  @apply scale-150;
+}
+
+.scroll-progress {
+  @apply fixed top-0 left-0 h-1 bg-blue-400 z-50;
+}
+
+.loader {
+  @apply fixed inset-0 bg-navy-950 flex items-center justify-center z-50;
+}
+
+.loader-circle {
+  @apply w-16 h-16 border-4 border-blue-400 border-t-transparent rounded-full animate-spin;
+}
+
+.navbar {
+  @apply fixed top-0 left-0 right-0 z-40 flex justify-between items-center px-6 py-4 transition-all duration-300;
+}
+
+.navbar.scrolled {
+  @apply bg-navy-900/80 backdrop-blur-lg;
+}
+
+.logo {
+  @apply text-2xl font-bold text-white;
+}
+
+.nav-links {
+  @apply hidden md:flex items-center gap-8;
+}
+
+.nav-links a {
+  @apply text-gray-300 hover:text-white transition-colors;
+}
+
+.mobile-menu-btn {
+  @apply md:hidden text-2xl;
+}
+
+.hero {
+  @apply relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden;
+}
+
+.threejs-container {
+  @apply fixed inset-0 pointer-events-none;
+}
+
+#particleNetwork {
+  @apply fixed inset-0 pointer-events-none;
+}
+
+.title {
+  @apply text-6xl md:text-8xl font-bold mb-6 relative z-10;
+  background: linear-gradient(to right, #60a5fa, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  @apply text-xl md:text-2xl text-gray-300 mb-12 relative z-10 min-h-[3rem] font-bold;
+}
+
+.cta-button {
+  @apply px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-bold transition-all duration-300 relative z-10;
+}
+
+.scroll-down {
+  @apply absolute bottom-8 text-2xl text-gray-400 hover:text-white transition-colors animate-bounce;
+}
+
+.features {
+  @apply py-24 px-4;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-center mb-12 text-white;
+}
+
+.features-grid {
+  @apply grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12;
+}
+
+.feature-card {
+  @apply bg-navy-900/50 p-8 rounded-lg border border-blue-900/50 backdrop-blur-sm hover:border-blue-700 transition-all duration-300;
+}
+
+.feature-icon {
+  @apply text-blue-400 mb-4;
+}
+
+.feature-title {
+  @apply text-xl font-bold mb-2 text-white;
+}
+
+.feature-desc {
+  @apply text-gray-400;
+}
+
+.action-buttons {
+  @apply flex flex-wrap justify-center gap-4;
+}
+
+.action-button {
+  @apply flex items-center gap-2 px-6 py-2 rounded-lg font-medium transition-all duration-300;
+}
+
+.action-button.github {
+  @apply bg-gray-800 hover:bg-gray-700 text-white;
+}
+
+.action-button.ppt {
+  @apply bg-purple-600 hover:bg-purple-700 text-white;
+}
+
+.get-started {
+  @apply py-24 px-4 relative;
+}
+
+.timeline {
+  @apply max-w-4xl mx-auto relative mb-16;
+}
+
+.timeline-line {
+  @apply absolute left-8 top-0 bottom-0 w-px bg-blue-900;
+}
+
+.step {
+  @apply flex gap-8 mb-12 relative;
+}
+
+.step-marker {
+  @apply w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold relative z-10;
+}
+
+.step-content {
+  @apply flex-1;
+}
+
+.modal {
+  @apply fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50;
+}
+
+.modal-content {
+  @apply bg-navy-900 rounded-lg p-8 w-full max-w-md relative;
+}
+
+.close-modal {
+  @apply absolute top-4 right-4 text-gray-400 hover:text-white;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.form-group label {
+  @apply block text-sm font-medium mb-1 text-white;
+}
+
+.form-group input {
+  @apply w-full px-4 py-2 bg-navy-800 border border-blue-900 rounded-lg text-white focus:outline-none focus:border-blue-600;
+}
+
+.toast {
+  @apply fixed bottom-4 left-1/2 -translate-x-1/2 px-6 py-3 rounded-lg flex items-center gap-2 z-50;
+}
+
+.toast.success {
+  @apply bg-green-600 text-white;
+}
+
+.toast.error {
+  @apply bg-red-600 text-white;
+}
+
+.social-links {
+  @apply flex justify-center gap-6 mb-8;
+}
+
+.social-links a {
+  @apply text-2xl text-gray-400 hover:text-white transition-colors;
+}
+
+.copyright {
+  @apply text-center text-gray-400;
+}
+
+/* About Section Styles */
+.about {
+  @apply py-24 px-4 bg-navy-900/50 backdrop-blur-sm;
+}
+
+.about-content {
+  @apply max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center;
+}
+
+.about-text {
+  @apply space-y-6;
+}
+
+.about-heading {
+  @apply text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent;
+}
+
+.about-description {
+  @apply text-gray-300 leading-relaxed;
+}
+
+.about-stats {
+  @apply grid grid-cols-2 gap-6 mt-8;
+}
+
+.stat-card {
+  @apply bg-navy-800 p-6 rounded-lg border border-blue-900 text-center;
+}
+
+.stat-number {
+  @apply text-3xl font-bold text-blue-400 mb-2;
+}
+
+.stat-label {
+  @apply text-sm text-gray-400;
+}
+
+.about-image {
+  @apply relative;
+}
+
+.about-image-grid {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.about-image-item {
+  @apply rounded-lg overflow-hidden transform transition-transform hover:scale-105;
+}
+
+.about-image-item img {
+  @apply w-full h-full object-cover;
+}
+
+.about-image-item:nth-child(odd) {
+  @apply translate-y-8;
+}
+
+/* Mobile Menu Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    @apply fixed inset-0 bg-navy-900/95 flex flex-col items-center justify-center gap-8 transform transition-transform duration-300 ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .nav-links.active {
+    @apply translate-x-0;
+  }
+
+  .nav-links a {
+    @apply text-xl;
+  }
+}
+
+/* Animations */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-text {
+  background-size: 200% auto;
+  animation: gradient 4s linear infinite;
+}
+
+.underscore {
+  @apply inline-block w-2 h-0.5 bg-blue-400 align-middle ml-1;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
