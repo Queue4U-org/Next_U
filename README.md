@@ -6,9 +6,14 @@
 
 ---
 
-# Project Presentation – PPTN
+# Project Presentation/ Demo Video
 
 [**tap here**](https://nextu.my.canva.site/) to view the full project presentation.
+
+[**tap here**](https://nextu.my.canva.site/) to watch project demonstration video( DEMO video ).
+
+[**tap here**](https://nextu.my.canva.site/) to see the deployed project.
+
 
 ---
 
