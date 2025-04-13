@@ -108,18 +108,18 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ### <a id="1-landing-page"></a>1. Landing Page
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP1.png" alt="Home Page" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Landing Page</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP1.png" alt="Home Page" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: right;">Landing Page</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP2.png" alt="Begin Journey" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Key Features</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP2.png" alt="Begin Journey" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Key Features</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP3.png" alt="Level Up" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Get Started</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP3.png" alt="Level Up" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Get Started</p>
     </div>
 </div>
 
@@ -127,18 +127,18 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ### <a id="2-web3-login-feature"></a>2. Web3 Login Feature
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 20px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Login Screen</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Login Screen</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Wallet Connection</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Wallet Connection</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Successful Login</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Successful Login</p>
     </div>
 </div>
 
@@ -146,22 +146,22 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ### <a id="3-home-page"></a>3. Home Page
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home1.png" alt="Home Page" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Home Page</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home1.png" alt="Home Page" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Home Page</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home2.png" alt="Begin Journey" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Begin Journey</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home2.png" alt="Begin Journey" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Begin Journey</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home3.png" alt="Level Up" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Level Up</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home3.png" alt="Level Up" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Level Up</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home4.png" alt="Home Page Quest Info" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Quest Info</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home4.png" alt="Home Page Quest Info" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Quest Info</p>
     </div>
 </div>
 
@@ -169,32 +169,33 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ### <a id="4-quest-page"></a>4. Quest Page
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Completing Quest</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Completing Quest</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Setting Custom Quests/Task</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Custom Quests</p>
     </div>
-  <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest3.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Leaderboard</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest3.png" alt="Profile" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Leaderboard</p>
     </div>
 </div>
 
 ---
 
 ### <a id="5-profile-page"></a>5. Profile Page
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Profile Overview</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Profile Overview</p>
     </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Detailed Profile</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Detailed Profile</p>
     </div>
 </div>
 
@@ -202,16 +203,14 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ### <a id="6-settings-page"></a>6. Settings Page
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings.png" alt="Settings" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Settings Page</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings.png" alt="Settings" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Settings Page</p>
     </div>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings2.png" alt="Settings" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Security Guard</p>
+    <div style="width: 200px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings2.png" alt="Settings" style="width: 100%; height: auto; border-radius: 6px;"/>
+        <p style="margin: 8px 0 0; font-size: 13px; text-align: center;">Security Guard</p>
     </div>
 </div>
 
