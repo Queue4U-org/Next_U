@@ -18,7 +18,7 @@
 
 [**tap here**](https://nextu.my.canva.site/) to watch project demonstration video( DEMO video ).
 
-[**tap here**](https://nextu.my.canva.site/) to see the deployed project.
+[**tap here**](https://queue-4-u-amuhacks-4-0.vercel.app/) to see the deployed project.
 
 
 ---
