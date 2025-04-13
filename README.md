@@ -62,7 +62,7 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ---
 
-## ✍️ Project Description
+## <a id="project-description"></a>✍️ Project Description
 
 Next_U is a gamified personal growth app that turns your real-life self-improvement into an RPG adventure. Our platform tackles the common problem of abandoned habit trackers and fitness apps by making personal development genuinely fun. Instead of boring checklists, we've built a gaming experience where completing real-world challenges (like workouts, meditation, or learning) levels up your character, unlocks achievements, and puts you on leaderboards.
 
