@@ -1,9 +1,14 @@
+
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 import { useUserStore } from '../store/userStore';
-import { Trophy, Star, Medal, Award } from 'lucide-react';
+import { Trophy, Star, Medal, Award, Gamepad, Sparkles } from 'lucide-react';
+import { PlantGame } from '../components/PlantGame';
 
 export const ProfilePage = () => {
   const { profile } = useUserStore();
+  const [isGameOpen, setIsGameOpen] = useState(false);
+  const [isFeatureOpen, setIsFeatureOpen] = useState(false);
 
   return (
     <motion.div
@@ -68,7 +73,73 @@ export const ProfilePage = () => {
             </div>
           ))}
         </div>
+        
+        <motion.button
+          onClick={() => setIsGameOpen(true)}
+          className="mt-6 w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <Gamepad className="w-5 h-5" />
+          <span>Play Plant Game</span>
+        </motion.button>
+
+        <motion.button
+          onClick={() => setIsFeatureOpen(true)}
+          className="mt-4 w-full bg-teal-600 hover:bg-teal-700 text-white py-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <Sparkles className="w-5 h-5" />
+          <span>Unique Fun Feature</span>
+        </motion.button>
       </div>
+
+      <PlantGame isOpen={isGameOpen} onClose={() => setIsGameOpen(false)} />
+      
+      {/* Unique Fun Feature Modal - You can replace this with your actual feature component */}
+      {isFeatureOpen && (
+        <motion.div 
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={() => setIsFeatureOpen(false)}
+        >
+          <motion.div 
+            className="bg-navy-900 rounded-lg p-6 border border-teal-500 max-w-md w-full"
+            initial={{ scale: 0.9 }}
+            animate={{ scale: 1 }}
+            exit={{ scale: 0.9 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-xl font-bold text-teal-400 flex items-center gap-2">
+                <Sparkles className="w-5 h-5" />
+                Unique Fun Feature
+              </h3>
+              <button 
+                onClick={() => setIsFeatureOpen(false)}
+                className="text-gray-400 hover:text-white"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="text-center py-8">
+              <p className="text-lg mb-4">✨ Your amazing feature goes here! ✨</p>
+              <p className="text-blue-300">This could be a mini-game, interactive experience, or special content.</p>
+            </div>
+            <div className="flex justify-center">
+              <button
+                onClick={() => setIsFeatureOpen(false)}
+                className="bg-teal-600 hover:bg-teal-700 px-6 py-2 rounded-lg transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
     </motion.div>
   );
 };
