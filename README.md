@@ -155,12 +155,16 @@ We're developing a web app that connects your daily activities to in-game progre
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Profile Overview</p>
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Completing Quest</p>
     </div>
     <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Detailed Profile</p>
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Setting Custom Quests/Task</p>
+    </div>
+  <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Quest3.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Leaderboard</p>
     </div>
 </div>
 
