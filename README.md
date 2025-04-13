@@ -6,6 +6,12 @@
 
 ---
 
+<div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/NEXT_U.png" alt="Home Page" style="width: 100%; height: auto; border-radius: 8px;"/>
+    </div>
+    
+---
+
 # Project Presentation/ Demo Video
 
 [**tap here**](https://nextu.my.canva.site/) to view the full project presentation.
