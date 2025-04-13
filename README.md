@@ -106,7 +106,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ## <a id="interface-preview"></a>Interface Preview
 
-### Landing Page
+### <a id="1-landing-page"></a>1. Landing Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
@@ -125,7 +125,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Web3 based login Feature
+### <a id="2-web3-login-feature"></a>2. Web3 Login Feature
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 20px 0;">
     <div style="width: 280px; text-align: center;">
@@ -144,7 +144,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Home Page
+### <a id="3-home-page"></a>3. Home Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
@@ -167,7 +167,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Quest Page
+### <a id="4-quest-page"></a>4. Quest Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
@@ -186,7 +186,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Profile Page  
+### <a id="5-profile-page"></a>5. Profile Page
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
@@ -200,7 +200,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Settings Page
+### <a id="6-settings-page"></a>6. Settings Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
