@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a2e);
+  color: #ffffff;
+}
+::selection {
+  background: #6a5acd;
+  color: #fff;
+}
+.wrapper {
+  overflow: hidden;
+  max-width: 390px;
+  background: #121212;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(106, 90, 205, 0.5);
+}
+.wrapper .title-text {
+  display: flex;
+  width: 200%;
+}
+.wrapper .title {
+  width: 50%;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: #9d4edd;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .slide-controls {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin: 30px 0 10px 0;
+  justify-content: space-between;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #1a1a2e;
+}
+.slide-controls .slide {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.6s ease;
+  color: #9d4edd;
+}
+.slide-controls .slider-tab {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: linear-gradient(to right, #5a189a, #9d4edd);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+input[type="radio"] {
+  display: none;
+}
+#signup:checked ~ .slider-tab {
+  left: 50%;
+}
+#signup:checked ~ label.signup {
+  color: #fff;
+}
+#signup:checked ~ label.login {
+  color: #9d4edd;
+}
+#login:checked ~ label.signup {
+  color: #9d4edd;
+}
+#login:checked ~ label.login {
+  color: #fff;
+}
+.wrapper .form-container {
+  width: 100%;
+  overflow: hidden;
+}
+.form-container .form-inner {
+  display: flex;
+  width: 200%;
+}
+.form-container .form-inner form {
+  width: 50%;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-inner form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form-inner form .field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  background: #1f1f2e;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.form-inner form .field input:focus {
+  border-color: #9d4edd;
+}
+.form-inner form .field input::placeholder {
+  color: #888;
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder {
+  color: #aaa;
+}
+.form-inner form .pass-link,
+.form-inner form .signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+  color: #9d4edd;
+  text-decoration: none;
+}
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+  text-decoration: underline;
+}
+form .btn {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .btn-layer {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: linear-gradient(to right, #5a189a, #9d4edd, #5a189a);
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+form .btn:hover .btn-layer {
+  left: 0;
+}
+form .btn input[type="submit"],
+form .btn input[type="button"] {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#walletStatus {
+  color: #9d4edd;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}

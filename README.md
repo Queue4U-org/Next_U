@@ -2,7 +2,7 @@
   <img src="./src/assets/Logo.png" alt="NextYou Logo" width="200" height="200"/>
 </p>
 
-<h1 align="center">🚀 Welcome to <span style="color:#6366F1">Next_U</span> - Level Up Your Life</h1>
+<h1 align="center">🚀 Welcome to <span style="color:#6366F1">Next_U</span> - Become the Main Character in Your Life's Adventure</h1>
 
 ---
 
@@ -15,9 +15,12 @@
 ## 📚 Table of Contents
 
 - [🌟 Vision](#-vision)
+- [✍️ Project Description](#-project-description)
+- [📝 Proposed System](#-proposed-system)
 - [✨ Key Features](#-key-features)
 - [💻 Tech Stack](#-tech-stack)
 - [📱 App Structure](#-app-structure)
+- [⛔ Existing System and Drawbacks](#-existing-system-and-drawbacks)
 - [🚦 Getting Started](#-getting-started)
 - [🔄 Typical User Flow](#-typical-user-flow)
 - [📞 Contact](#-contact)
@@ -42,6 +45,29 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ---
 
+## ✍️ Project Description
+
+Next_U is a gamified personal growth app that turns your real-life self-improvement into an RPG adventure. Our platform tackles the common problem of abandoned habit trackers and fitness apps by making personal development genuinely fun. Instead of boring checklists, we've built a gaming experience where completing real-world challenges (like workouts, meditation, or learning) levels up your character, unlocks achievements, and puts you on leaderboards.
+
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+
+---
+
+## 📝 Proposed System
+We're developing a web app that connects your daily activities to in-game progress through several key components:
+
+- Quest system offering daily personalized challenges across fitness, mindfulness, learning, and social areas
+- XP-based progression system with levels, achievements, and badges
+- User-created custom challenges for personal goal tracking
+- Community features including leaderboards and friend competitions
+- Verification through a mix of self-reporting, app integrations, and optional blockchain verification
+- AI recommendation engine that learns user preferences and suggests new quests
+
+<p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+
+---
+
+
 ## ✨ Key Features
 
 ### 🗓️ Core Experience
@@ -61,7 +87,24 @@ Your actions earn XP, achievements, and leaderboard rankings.
 
 ---
 
-## 💻 Tech Stack
+# Features
+
+## Web3 based login Feature
+
+<div style="display: flex; overflow-x: auto; white-space: nowrap; gap: 20px; padding: 10px 0;">
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Login Screen</p>
+    </div>
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Wallet Connection</p>
+    </div>
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Successful Login</p>
+    </div>
+</div>
 
 ## 💻 Tech Stack
 
@@ -110,6 +153,20 @@ Your actions earn XP, achievements, and leaderboard rankings.
 └── /settings       # ⚙️ Preferences
 ```
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
+
+---
+
+## ⛔ Existing System and Drawbacks
+
+Current habit trackers and productivity apps suffer from several key limitations:
+
+- Low engagement - traditional trackers feel like chores, leading to high abandonment rates
+- Lack of meaningful rewards - checkmarks and streaks aren't motivating enough long-term
+- Single-focus approach - most apps track only fitness OR productivity OR learning, not a holistic view
+- Limited customization - preset goals often don't match personal needs
+- Minimal social features - existing apps rarely harness the power of community competition
+
+  <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 
 ---
 
@@ -176,7 +233,7 @@ For support or inquiries, please contact us at - <br/></br>
 nextu@gmail.com
 
 <hr style="border-top: 0px solid #9CA3AF; width: 100%;" />
-<p align="center">© 2025 NextYou - Level Up Your Life</p>
+<p align="center">© 2025 NextYou - Become the Main Character in Your Life's Adventure</p>
 
 <p align="right"><a href="#-table-of-contents">🔝 Back to Top</a></p>
 

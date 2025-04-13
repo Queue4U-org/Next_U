@@ -7,6 +7,7 @@ interface UserStore {
   completeQuest: (questId: string) => void;
   addXP: (amount: number) => void;
   updateStreak: () => void;
+  updateAchievements: () => void;
 }
 
 const calculateLevel = (xp: number) => Math.floor(xp / 100) + 1;
@@ -21,7 +22,7 @@ const initialProfile: UserProfile = {
     discipline: 10,
     spiritual: 10,
     streak: 0,
-    questsCompleted: 0
+    questsCompleted: 0,
   },
   quests: [],
   achievements: [
@@ -32,7 +33,7 @@ const initialProfile: UserProfile = {
       icon: '🏃',
       progress: 1,
       maxProgress: 1,
-      unlockedAt: new Date()
+      unlockedAt: new Date(),
     },
     {
       id: '2',
@@ -40,12 +41,12 @@ const initialProfile: UserProfile = {
       description: 'Complete 5 intelligence quests',
       icon: '📚',
       progress: 0,
-      maxProgress: 5
-    }
+      maxProgress: 5,
+    },
   ],
   rank: 'Novice',
   joinedAt: new Date(),
-  lastActive: new Date()
+  lastActive: new Date(),
 };
 
 export const useUserStore = create<UserStore>((set) => ({
@@ -54,26 +55,41 @@ export const useUserStore = create<UserStore>((set) => ({
     set((state) => ({
       profile: {
         ...state.profile,
-        stats: { ...state.profile.stats, ...newStats }
-      }
+        stats: { ...state.profile.stats, ...newStats },
+      },
     })),
   completeQuest: (questId) =>
     set((state) => {
-      const quest = state.profile.quests.find(q => q.id === questId);
+      const quest = state.profile.quests.find((q) => q.id === questId);
       if (!quest || quest.completed) return state;
 
       const newStats = { ...state.profile.stats };
       newStats[quest.type] += quest.rewards.statIncrease;
       newStats.questsCompleted += 1;
-      
+
+      // Update quest completion status
+      const updatedQuests = state.profile.quests.map((q) =>
+        q.id === questId ? { ...q, completed: true } : q
+      );
+
+      // Update the quest progress in achievements
+      const updatedAchievements = state.profile.achievements.map((ach) => {
+        if (ach.id === '2' && quest.type === 'intelligence') {
+          ach.progress += 1;
+          if (ach.progress === ach.maxProgress) {
+            ach.unlockedAt = new Date();
+          }
+        }
+        return ach;
+      });
+
       return {
         profile: {
           ...state.profile,
           stats: newStats,
-          quests: state.profile.quests.map((q) =>
-            q.id === questId ? { ...q, completed: true } : q
-          )
-        }
+          quests: updatedQuests,
+          achievements: updatedAchievements,
+        },
       };
     }),
   addXP: (amount) =>
@@ -82,25 +98,56 @@ export const useUserStore = create<UserStore>((set) => ({
       const newLevel = calculateLevel(newXP);
       const leveledUp = newLevel > state.profile.stats.level;
 
+      // If leveled up, update the rank
+      let newRank = state.profile.rank;
+      if (newLevel >= 5) newRank = 'Adept';
+      if (newLevel >= 10) newRank = 'Expert';
+      if (newLevel >= 15) newRank = 'Master';
+
       return {
         profile: {
           ...state.profile,
           stats: {
             ...state.profile.stats,
             xp: newXP,
-            level: newLevel
-          }
-        }
+            level: newLevel,
+          },
+          rank: newRank,
+        },
       };
     }),
   updateStreak: () =>
-    set((state) => ({
-      profile: {
-        ...state.profile,
-        stats: {
-          ...state.profile.stats,
-          streak: state.profile.stats.streak + 1
+    set((state) => {
+      const newStreak = state.profile.stats.streak + 1;
+
+      // Ensure the streak doesn't reset when it shouldn't
+      const updatedStreak = newStreak <= 30 ? newStreak : 30; // cap at 30 days for example
+
+      return {
+        profile: {
+          ...state.profile,
+          stats: {
+            ...state.profile.stats,
+            streak: updatedStreak,
+          },
+        },
+      };
+    }),
+  updateAchievements: () =>
+    set((state) => {
+      const updatedAchievements = state.profile.achievements.map((ach) => {
+        // Check if any achievements should be updated based on progress
+        if (ach.progress === ach.maxProgress && !ach.unlockedAt) {
+          ach.unlockedAt = new Date(); // Mark as unlocked
         }
-      }
-    }))
+        return ach;
+      });
+
+      return {
+        profile: {
+          ...state.profile,
+          achievements: updatedAchievements,
+        },
+      };
+    }),
 }));
