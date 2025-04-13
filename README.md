@@ -12,7 +12,7 @@
     
 ---
 
-# Project Presentation/ Demo Video
+# Project Presentation/Demo Video
 
 [**tap here**](https://nextu.my.canva.site/) to view the full project presentation.
 
