@@ -11,7 +11,7 @@ interface QuestCardProps {
 
 export const QuestCard = ({ quest, onComplete }: QuestCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [timeLeft, setTimeLeft] = useState('');
+  const [timeLeft, setTimeLeft] = useState<string>(''); // Default empty string for timeLeft
   const completeQuest = useUserStore((state) => state.completeQuest);
   const addXP = useUserStore((state) => state.addXP);
 
@@ -25,16 +25,28 @@ export const QuestCard = ({ quest, onComplete }: QuestCardProps) => {
   const handleComplete = () => {
     completeQuest(quest.id);
     addXP(quest.rewards.xp);
-    onComplete?.();
+    if (onComplete) onComplete();
   };
 
   useEffect(() => {
     if (quest.duration) {
-      // Simulate countdown timer
-      const interval = setInterval(() => {
-        setTimeLeft(quest.duration || '');
+      const countdown = setInterval(() => {
+        const endTime = new Date(quest.duration).getTime();
+        const currentTime = new Date().getTime();
+        const timeRemaining = endTime - currentTime;
+
+        if (timeRemaining <= 0) {
+          setTimeLeft('Time’s up!');
+          clearInterval(countdown);
+        } else {
+          const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+          const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+          setTimeLeft(`${hours}:${minutes}:${seconds}`);
+        }
       }, 1000);
-      return () => clearInterval(interval);
+
+      return () => clearInterval(countdown);
     }
   }, [quest.duration]);
 
@@ -54,7 +66,7 @@ export const QuestCard = ({ quest, onComplete }: QuestCardProps) => {
 
       <div className="flex justify-between items-start mb-4">
         <h3 className="text-xl font-bold text-white">{quest.title}</h3>
-        <span className={`${difficultyColors[quest.difficulty]} text-sm font-medium`}>
+        <span className={`${difficultyColors[quest.difficulty] || 'text-gray-400'} text-sm font-medium`}>
           {quest.difficulty.toUpperCase()}
         </span>
       </div>
@@ -92,6 +104,7 @@ export const QuestCard = ({ quest, onComplete }: QuestCardProps) => {
         }`}
         whileHover={{ scale: quest.completed ? 1 : 1.02 }}
         whileTap={{ scale: quest.completed ? 1 : 0.98 }}
+        aria-label={quest.completed ? 'Quest completed' : 'Start quest'}
       >
         {quest.completed ? (
           'Completed'
