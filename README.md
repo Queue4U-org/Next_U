@@ -137,6 +137,24 @@ We're developing a web app that connects your daily activities to in-game progre
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home4.png" alt="Home Page Quest Info" style="height: 100%;"/>
         <p style="text-align: center; margin-top: 8px;">Home Page Quest Info</p>
    </div>
+
+   ### Profile Page
+
+   <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Check Your Profile</p>
+   </div>
+  <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP2.png" alt="Profile" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Profile</p>
+   </div>
+
+   ### Settings Page
+   
+  <div style="flex: 0 0 auto; width: auto; height: 300px;">
+  <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Settings.png" alt="Settings" style="height: 100%;"/>
+  <p style="text-align: center; margin-top: 8px;">Settings</p>
+  </div>
 </div>
 
 ## 💻 Tech Stack
