@@ -30,6 +30,12 @@
 - [📝 Proposed System](#-proposed-system)
 - [✨ Key Features](#-key-features)
 - [🌐 Interface Preview](#-interface-preview)
+  - [1. Landing Page](#1-landing-page)
+  - [2. Web3 Login Feature](#2-web3-login-feature)
+  - [3. Home Page](#3-home-page)
+  - [4. Quest Page](#4-quest-page)
+  - [5. Profile Page](#5-profile-page)
+  - [6. Settings Page](#6-settings-page)
 - [💻 Tech Stack](#-tech-stack)
 - [📱 App Structure](#-app-structure)
 - [⛔ Existing System and Drawbacks](#-existing-system-and-drawbacks)
@@ -139,7 +145,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Home Pages
+### Home Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
