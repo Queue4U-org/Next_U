@@ -186,8 +186,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-### Profile Page
-
+### Profile Page  
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
     <div style="width: 280px; text-align: center;">
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
@@ -218,7 +217,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-## 💻 Tech Stack
+## <a id="tech-stack"></a>💻 Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,postgres,firebase,python,tensorflow,sklearn,solidity,ethereum&theme=dark&perline=6" />
@@ -251,7 +250,7 @@ We're developing a web app that connects your daily activities to in-game progre
 ---
 
 
-## 📱 App Structure
+## <a id="app-structure"></a>📱 App Structure
 
 ```bash
 ├── /               # 🌐 Landing page
@@ -268,7 +267,7 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
-## ⛔ Existing System and Drawbacks
+## <a id="existing-system-and-drawbacks"></a>⛔ Existing System and Drawbacks
 
 Current habit trackers and productivity apps suffer from several key limitations:
 
@@ -282,7 +281,7 @@ Current habit trackers and productivity apps suffer from several key limitations
 
 ---
 
-## 🚦 Getting Started
+## <a id="getting-started"></a>🚦 Getting Started
 
 ### ***Clone repository*** <br>
 ```
@@ -313,7 +312,7 @@ npm run build
 
 ---
 
-## 🔄 Typical User Flow
+## <a id="typical-user-flow"></a>🔄 Typical User Flow
 
 1. 🧑‍💼 **User signs up and sets goals**  
    The journey begins by creating an account and sharing personal development preferences.
@@ -340,7 +339,7 @@ npm run build
 
 ---
 
-## 📞 Contact
+## <a id="contact"></a>📞 Contact
 For support or inquiries, please contact us at - <br/></br>
 nextu@gmail.com
 
