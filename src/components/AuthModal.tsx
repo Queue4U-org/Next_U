@@ -186,4 +186,3 @@ export const AuthModal = ({ isOpen, onClose }: AuthModalProps) => {
     </AnimatePresence>
   );
 };
-
