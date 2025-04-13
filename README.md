@@ -87,6 +87,25 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ---
 
+# Features
+
+## Web3 based login Feature
+
+<div style="display: flex; overflow-x: auto; white-space: nowrap; gap: 20px; padding: 10px 0;">
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Login Screen</p>
+    </div>
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Wallet Connection</p>
+    </div>
+    <div style="flex: 0 0 auto; width: auto; height: 300px;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="height: 100%;"/>
+        <p style="text-align: center; margin-top: 8px;">Successful Login</p>
+    </div>
+</div>
+
 ## 💻 Tech Stack
 
 <div align="center">
