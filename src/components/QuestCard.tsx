@@ -118,3 +118,4 @@ export const QuestCard = ({ quest, onComplete }: QuestCardProps) => {
     </motion.div>
   );
 };
+
