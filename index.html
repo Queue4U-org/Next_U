@@ -247,12 +247,32 @@
           <div class="field">
             <input type="password" placeholder="Password" required>
           </div>
+<<<<<<< Updated upstream
           <div class="pass-link">
             <a href="#">Reset password?</a>
           </div>
           <div class="field btn">
             <div class="btn-layer"></div>
             <input type="submit" value="Login">
+=======
+        <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" value="Login" onClick="redirectToReactApp(event)">
+          <script>
+            function redirectToReactApp(event) {
+              event.preventDefault();
+
+              const email = document.querySelector('form.login input[type="text"]').value;
+              const pass = document.querySelector('form.login input[type="password"]').value;
+
+              if (email && pass) {
+                window.location.href = 'main.html'; // Replace with your React app URL
+              } else {
+                alert("Please fill in both fields.");
+              }
+            }
+          </script>
+>>>>>>> Stashed changes
           </div>
 
           <!-- Wallet Button -->
@@ -329,6 +349,8 @@
       }
     }
   </script>
+
+
 </body>
 
 </html>
