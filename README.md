@@ -90,25 +90,6 @@ We're developing a web app that connects your daily activities to in-game progre
 
 ## Interface Preview
 
-### Web3 based login Feature
-
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 20px 0;">
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Login Screen</p>
-    </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Wallet Connection</p>
-    </div>
-    <div style="width: 280px; text-align: center;">
-        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="width: 100%; height: auto; border-radius: 8px;"/>
-        <p style="margin-top: 10px; font-size: 14px;">Successful Login</p>
-    </div>
-</div>
-
----
-
 ### Landing Page
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
@@ -123,6 +104,25 @@ We're developing a web app that connects your daily activities to in-game progre
     <div style="width: 280px; text-align: center;">
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/LP3.png" alt="Level Up" style="width: 100%; height: auto; border-radius: 8px;"/>
         <p style="margin-top: 10px; font-size: 14px;">Get Started</p>
+    </div>
+</div>
+
+---
+
+### Web3 based login Feature
+
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 20px 0;">
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login1.png" alt="Login Screen 1" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Login Screen</p>
+    </div>
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login2.png" alt="Wallet Connection" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Wallet Connection</p>
+    </div>
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Login3.png" alt="Successful Login" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Successful Login</p>
     </div>
 </div>
 
@@ -146,6 +146,21 @@ We're developing a web app that connects your daily activities to in-game progre
     <div style="width: 280px; text-align: center;">
         <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/Home4.png" alt="Home Page Quest Info" style="width: 100%; height: auto; border-radius: 8px;"/>
         <p style="margin-top: 10px; font-size: 14px;">Quest Info</p>
+    </div>
+</div>
+
+---
+
+### Quest Page
+
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin: 40px 0;">
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP1.png" alt="Check Your Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Profile Overview</p>
+    </div>
+    <div style="width: 280px; text-align: center;">
+        <img src="https://github.com/Queue4U-org/Next_U/blob/main/src/assets/PP2.png" alt="Profile" style="width: 100%; height: auto; border-radius: 8px;"/>
+        <p style="margin-top: 10px; font-size: 14px;">Detailed Profile</p>
     </div>
 </div>
 
