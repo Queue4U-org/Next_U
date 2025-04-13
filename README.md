@@ -284,12 +284,11 @@ Current habit trackers and productivity apps suffer from several key limitations
 
 ### ***Clone repository*** <br>
 ```
-git clone https://github.com/Queue4U-org/Next_U.git
+git clone https://https://github.com/Sd2k3/Queue_4U_AMUHACKS4.0.git
 ```
 
 ### ***Install dependencies*** <br>
 ```
-cd nextyou
 npm install
 ```
 
