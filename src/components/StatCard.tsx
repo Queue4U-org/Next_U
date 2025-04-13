@@ -77,3 +77,4 @@ export const StatCard = ({ type, value, onTrainClick }: StatCardProps) => {
     </motion.div>
   );
 };
+
